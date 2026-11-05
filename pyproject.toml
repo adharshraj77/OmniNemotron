@@ -1,0 +1,32 @@
+[project]
+name = "omni-nemotron"
+version = "2.0.0"
+description = "OmniNemotron: Multimodal Agentic AI Intelligence Platform powered by NVIDIA Nemotron 3.5 Super VL"
+readme = "README.md"
+authors = [
+    { name = "Kavala Adharsh Raj", email = "kavalaadharshraj@gmail.com" }
+]
+requires-python = ">=3.12"
+license = { text = "MIT" }
+keywords = ["nvidia", "nemotron", "langchain", "multimodal", "ai", "agents", "pydantic", "streamlit"]
+dependencies = [
+    "ipykernel>=7.4.0",
+    "langchain>=1.4.0",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.7.0",
+    "langchain-google-genai>=4.4.2",
+    "langchain-groq>=1.1.3",
+    "langchain-nvidia-ai-endpoints>=1.5.0",
+    "langchain-openai>=1.7.2",
+    "langchain-openrouter>=0.2.0",
+    "openai>=3.30.0",
+    "pandas>=2.2.0",
+    "Pillow>=10.0.0",
+    "pydantic>=2.10.0",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.35.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"

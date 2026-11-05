@@ -1,0 +1,32 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets & Local Config
+.env
+*.env
+.streamlit/secrets.toml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build
+dist/
+build/
+*.egg-info/
+src/
+
+# UV
+uv.lock
+
+# Jupyter
+.ipynb_checkpoints/
